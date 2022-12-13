@@ -36,7 +36,7 @@ var text = new fabric.Text('Scroll up to select a design and get started.', {
     selectable: false
 })
 canvas.add(text)
-var text = new fabric.Text('From Arewa S p a c e.', {
+var text = new fabric.Text('From Yumtech Gusau.', {
     fill: 'rgb(158, 158, 158)',
     top: 900,
     left: 350,
@@ -288,7 +288,7 @@ var uploadFol = '4285/All/'
                             <img class="part3_3" src="public/img/part3.gif" alt="">
                             <img class="part4" src="public/img/part4.gif" alt="">
                         </div>
-                        <h2>Y<br>INDEPENDENCE DAY!</h2>
+                        <h2>Dauda Is Comming!</h2>
                         <p>${userName.value}</p>
                         `
 

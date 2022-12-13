@@ -124,7 +124,7 @@ readImageSplit = readImage.split('\n')
         myDB.collection('users').findOne({email:req.body.user.email}).then((me)=>{
             if(me){
                 console.log(`Yes we have this email in our database`)
-                res.send(`<small>This email <b>${req.body.user.email}</b> is already been registered with Arewaspace. use different email</small>`)
+                res.send(`<small>This email <b>${req.body.user.email}</b> is already been registered with Dauda Campaign. use different email</small>`)
             }else{
     
                 myDB.collection('users').insertOne({
@@ -135,7 +135,7 @@ readImageSplit = readImage.split('\n')
                     date: Date()
             
                 }).then((result)=>{ console.log(`New Signup with user name: ${req.body.user.name} `)})
-                res.send(`<small>Thank you for subscribing to YUMTECH with email address <br> <b>${req.body.user.email}</b></small> `)
+                res.send(`<small>Thank you for registering to DAUDA Campaign with email address <br> <b>${req.body.user.email}</b></small> `)
             }   
         })
     })

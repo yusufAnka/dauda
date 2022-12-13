@@ -48,6 +48,7 @@ header{
     padding: 8px;
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
 }
 .sixty{
     color: rgb(244, 236, 236);
@@ -107,12 +108,21 @@ header svg{
     padding: 0rem;
     margin: 0rem;
 }
+.pdp{
+    width: 5rem;
+    height: 5rem;
+}
 @media screen and (max-width: 700px) {
     .happy h3{
-        font-size: 2rem;
+        font-size: 0.9rem;
+    }
+    .happy h4{
+        font-size: 0.9rem;
+        /* display: none; */
     }
     .happy p{
-        font-size: .4rem;
+        font-size: 0.9rem;
+        line-height: 1rem;
     }
     .container{
             display: flex;
@@ -120,17 +130,28 @@ header svg{
             margin: 0px;
             padding: 0px;
     }
+    .container h3{
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+}
+.container h1{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
     .headerLeft{
             width: 100%;
-            height: 400px;
+            height: 13rem;
     }
     .d{
-            width: 50px;
-            height: 50px;
+            width: 18rem;
+            align-items: center;
+            margin-bottom: 4rem;
+            margin-left: 1rem;
+            /* height: 50px; */
     }
     .headerRight{
             width: 50%;
-            height: 200px;
+            height: 13rem;
      }
     header svg{
             display: block;
@@ -149,13 +170,22 @@ header svg{
             font-size: 1.2rem;
             color: #005835;
     }
+    .pdp{
+        width: 3rem;
+        height: 3rem;
+    }
+    .banner2{
+        height: 1.5rem;
+        width: 9rem;
+        
+    }
 }
 
 
 
 .banner2{
-    height: 5rem;
-    width: 22rem;
+    height: 3rem;
+    width: 18rem;
     
 }
 
@@ -307,12 +337,13 @@ header svg{
 }
 label{
     padding: 10px;
-    background: #00b46c; 
+    background: #0c4f34; 
     display: table;
     color: #fff;
     width: 250px;
     border-radius: 5px;
     cursor: pointer;
+    /* font-size: 1.2rem; */
 }
 .userPreview{
     width: 80px;
@@ -427,7 +458,17 @@ label{
         transform-origin: bottom;
     }
 }
-
+@media screen and (max-width: 700px) {
+    .banner .fourt h3{
+        font-size: 1rem;
+    }
+    label{
+        padding: 10px;
+        
+        font-size: 1rem;
+    }
+   
+}
 @media screen and (max-width: 850px) {
     .banner .first h2{
         font-size: 2rem;
@@ -576,26 +617,20 @@ label{
 .banner .eight{
     text-align: center;
     background-color: #005835;
-    margin-top: -4px;
-    padding: 50px;
+    padding: 1rem;
     color: rgb(184, 184, 184);
-}
-.banner .eight h2{
-    font-size: 3rem;
-    padding: 0px;
-}
-.banner .eight p{
-    font-size: 2rem;
-    padding: 5px;
-    margin-top: -30px;
-    background-color: rgb(184, 184, 184);
-    color: #005835;
-    border-radius: 5px;
 }
 
 .banner .eight small{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -80px;
+    font-size: 1rem;
+    color: #fff;
+}
+.banner .eight a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: #fff;
 }
 .banner .nine{
     text-align: center;

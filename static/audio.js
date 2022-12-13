@@ -24,7 +24,7 @@ audioBanner.onclick = function(){
     firework.play()
     setTimeout(() => {
         particle.innerHTML = ''
-    }, 100);
+    }, 3000);
 }
 var play = document.getElementById('play')
 
