@@ -176,8 +176,8 @@ canvas.renderAll()
                                 
                                 var reader = new FileReader();
                                 reader.onload = function(file) {
-                                canvas.item(0).setSrc('./public/img/author.png', canvas.renderAll.bind(canvas)).setCoords
-                                canvas.item(0).setSrc(file.target.result, canvas.renderAll.bind(canvas)).setCoords
+                                // canvas.item(0).setSrc('./public/img/author.png', canvas.renderAll.bind(canvas)).setCoords
+                                canvas.item(0).setSrc(file.target.result, canvas.renderAll.bind(canvas)).setCoords()
                                 if(canvas.item(0).getOriginalSize().width >= 8000){
                                     canvas.item(0).scale(.15).setCoords
                                 }
