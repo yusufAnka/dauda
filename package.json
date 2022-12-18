@@ -1,13 +1,13 @@
 {
-  "name": "naijaat60",
+  "name": "dauda",
   "version": "1.0.0",
-  "description": "Celebration of Nigeria Independence 1st October",
+  "description": "Dauda Lawan Dare",
   "main": "server.js",
   "scripts": {
     "test": "node server.js",
     "start": "node server.js"
   },
-  "author": "Indaneey Design",
+  "author": "Yusuf Anka",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
